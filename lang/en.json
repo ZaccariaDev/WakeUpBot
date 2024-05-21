@@ -1,0 +1,9 @@
+{
+	"alertTitle": "Bump available",
+	"alertText": "Please use the command **/bump**",
+	"alertSend": "Alert sent",
+	"bump": "A bump has been sent",
+	"nextAlert": "Next alert scheduled",
+	"thanks": "Thank you very much for helping the server grow! :muscle:",
+	"updateAvailable": "An update is available"
+}
