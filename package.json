@@ -1,0 +1,30 @@
+{
+  "name": "wakeupbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.37.61",
+    "discord.js": "^14.14.1",
+    "fast-deep-equal": "^3.1.3",
+    "humanize-duration": "^3.32.0",
+    "lodash": "^4.17.21",
+    "lodash.snakecase": "^4.1.1",
+    "magic-bytes.js": "^1.10.0",
+    "ts-mixer": "^6.0.4",
+    "tslib": "^2.6.2",
+    "undici": "^5.27.2",
+    "undici-types": "^5.26.5",
+    "ws": "^8.14.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZaccariaDev/WakeUpBot"
+  },
+  "author": "Gayoo",
+  "license": "CC BY-NC-ND 4.0",
+  "description": ""
+}
