@@ -44,6 +44,10 @@ WakeUp Bot is a highly configurable Discord bot designed to remind users to perf
 
 2. **Configure the Bot**
     - Edit the `config.json` file with your specific settings.
+    - If you want to access to commands like */score* you will need to run the following command from the root of the directory:
+```sh
+    node deployCommands.js
+```
 
 3. **Update Language Files if Command Changes**
     - If you change the command, make sure to update the corresponding language file in the `lang` folder to reflect the new command name.
@@ -108,6 +112,10 @@ WakeUp Bot est un bot Discord hautement configurable conçu pour rappeler aux ut
 
 2. **Configurer le Bot**
     - Éditez le fichier `config.json` avec vos paramètres spécifiques.
+    - Si vous souhaitez activer les commandes fournies avec le bot tel que la commande */score* vous allez devoir executer la commande suivante dans le dossier principal du bot 
+```sh
+    node deployCommands.js
+```
 
 3. **Mettre à jour les fichiers de langue si la commande change**
     - Si vous changez la commande, assurez-vous de mettre à jour le fichier de langue correspondant dans le dossier `lang` pour refléter le nouveau nom de la commande.
@@ -171,6 +179,10 @@ WakeUp Bot è un bot Discord altamente configurabile progettato per ricordare ag
 
 2. **Configura il Bot**
     - Modifica il file `config.json` con le tue impostazioni specifiche.
+    - Per aggiungere i comandi sul server discord come */score*, bisognerà esecutare nel folder principale : 
+```sh
+    node deployCommands.js
+```
 
 3. **Aggiornare i file di lingua se il comando cambia**
     - Se cambi il comando, assicurati di aggiornare il file di lingua corrispondente nella cartella `lang` per riflettere il nuovo nome del comando.
