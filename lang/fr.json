@@ -4,6 +4,13 @@
 	"alertSend" : "Alerte envoyée",
 	"bump" : "Un bump viens d'être envoyé",
 	"nextAlert" : "Prochaine alerte prévue",
+	"notFound" : ":warning: Je n'ai pas pu retrouvé le dernier Bump effectué :warning:",
 	"thanks" : "Merci beaucoup de participer à la croissance du serveur ! :muscle:",
-	"updateAvailable" : "Une mise à jour est disponible"
+	"updateAvailable" : "Une mise à jour est disponible",
+
+	"noScoreUser" : "n'a pas de score",
+	"userScore" : "a un score de",
+	"missingProperty" : "Il manque une propriété 'data' ou 'execute' à la commande",
+	"scoreTitle" : "Score",
+	"newScore" : "Votre nouveau score"
 }

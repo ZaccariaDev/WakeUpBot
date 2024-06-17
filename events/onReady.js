@@ -31,13 +31,18 @@ async function onReady(client){
 			let diff = new Date().getTime() - (timestamp + timer)
 
 			// If the timer is exceeded send alert
-			if (diff > 0){alert(channel)}
+			if (diff > 0) alert(channel);
 			// Else set a timeout for sending alert
 			else{
 				console.log(`\n${new Date().toISOString()}\n-> ${lang.nextAlert}  : ${new Date(timestamp+timer).toString()}`);
 				setTimeout(() => alert(channel), -diff)
 			}
 		}
+		// If no message found sending alert and a message to say that we dont find message
+		else {
+			alert(channel)
+			channel.send(lang.notFound)
+		};
 	});
 }
 

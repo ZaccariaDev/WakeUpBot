@@ -1,3 +1,7 @@
+# Patchnotes
+- **V1.0.1**
+- Added a score system
+- Added the possibility to mention *everyone* by simply add everyone in the config.json
 
 # WakeUp Bot
 
@@ -58,6 +62,11 @@ This project is licensed under License. See the LICENSE file for more details.
 
 ---
 
+# Patchnotes
+- **V1.0.1**
+- Ajout d'un système de score
+- Ajout de la possibilité de mentionner *everyone* en mettant simplement "everyone" dans le config.json
+
 # WakeUp Bot
 
 WakeUp Bot est un bot Discord hautement configurable conçu pour rappeler aux utilisateurs d'effectuer des actions spécifiques, telles que l'utilisation de la commande `/bump` pour Disboard. Grâce à son fichier de configuration flexible `config.json`, ce bot peut également rappeler aux utilisateurs de voter pour le serveur sur diverses plateformes comme Top-Serveur.
@@ -116,6 +125,10 @@ Nous accueillons les contributions de la communauté. Si vous avez des suggestio
 Ce projet est sous licence. Voir le fichier LICENSE pour plus de détails.
 
 ---
+# Patchnotes
+- **V1.0.1**
+- Aggiunto un sistema di score
+- Aggiunta la possibilità di ping *everyone* semplicement mettendo "everyone" nel file config.json
 
 # WakeUp Bot
 

@@ -1,11 +1,12 @@
 {
 	"token": "[[Your Bot Token]]",
-
+	"clientId": "[[Your Bot Application ID]]",
+	"guildId": "[[Your Discord Server ID]]",
 	"language" : "fr",
 
 	"channelToCheck" : "[[Discord ID of the channel where you want to check the command use]]",
-	"botToCheck" : "302050872383242240",
-	"roleToAlert" : "[[Discord ID of the role you want to alert]]", 
+	"botToCheck" : "302050872383242240 <--- disboard id, change if needed",
+	"roleToAlert" : "[[Discord ID of the role you want to alert or everyone]]", 
 	"timeBeforeBump" : "02:00:00",
 	"command" : "bump",
 	"checkUpdate" : "yes"
