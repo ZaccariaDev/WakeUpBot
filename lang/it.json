@@ -1,0 +1,9 @@
+{
+	"alertTitle": "Bump disponibile",
+	"alertText": "Si prega di utilizzare il comando **/bump**",
+	"alertSend": "Avviso inviato",
+	"bump": "È stato inviato un bump",
+	"nextAlert": "Prossimo avviso previsto",
+	"thanks": "Grazie mille per aver contribuito alla crescita del server! :muscle:",
+	"updateAvailable": "È disponibile un aggiornamento"
+}

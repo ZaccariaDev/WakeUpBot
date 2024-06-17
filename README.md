@@ -30,26 +30,26 @@ WakeUp Bot is a highly configurable Discord bot designed to remind users to perf
 - **channelToCheck**: ID of the channel to monitor for the command.
 - **botToCheck**: ID of the bot to check (e.g., Disboard).
 - **roleToAlert**: ID of the role to alert.
-- **timeBeforeBump**: Time interval before reminding to bump.
+- **timeBeforeBump**: Time interval before reminding to bump (hh:mm:ss).
 - **command**: Command to remind (e.g., `/bump`).
 - **checkUpdate**: Whether to check for updates.
 
 ## How to Install and Use
+
 1. **Clone the Repository**
     ```sh
     git clone https://github.com/yourusername/WakeUp-Bot.git
     cd WakeUp-Bot
     ```
 
-2. **Install Dependencies**
-    ```sh
-    npm install
-    ```
-
-3. **Configure the Bot**
+2. **Configure the Bot**
     - Edit the `config.json` file with your specific settings.
 
+3. **Update Language Files if Command Changes**
+    - If you change the command, make sure to update the corresponding language file in the `lang` folder to reflect the new command name.
+
 4. **Run the Bot**
+    - Run the following command from the root of the directory:
     ```sh
     node index.js
     ```
@@ -94,26 +94,26 @@ WakeUp Bot est un bot Discord hautement configurable conçu pour rappeler aux ut
 - **channelToCheck** : ID du canal à surveiller pour la commande.
 - **botToCheck** : ID du bot à surveiller (par exemple, Disboard).
 - **roleToAlert** : ID du rôle à alerter.
-- **timeBeforeBump** : Intervalle de temps avant de rappeler de bump.
+- **timeBeforeBump** : Intervalle de temps avant de rappeler de bump (hh:mm:ss).
 - **command** : Commande à rappeler (par exemple, `/bump`).
 - **checkUpdate** : Vérifier les mises à jour.
 
 ## Comment Installer et Utiliser
+
 1. **Cloner le Répertoire**
     ```sh
     git clone https://github.com/yourusername/WakeUp-Bot.git
     cd WakeUp-Bot
     ```
 
-2. **Installer les Dépendances**
-    ```sh
-    npm install
-    ```
-
-3. **Configurer le Bot**
+2. **Configurer le Bot**
     - Éditez le fichier `config.json` avec vos paramètres spécifiques.
 
+3. **Mettre à jour les fichiers de langue si la commande change**
+    - Si vous changez la commande, assurez-vous de mettre à jour le fichier de langue correspondant dans le dossier `lang` pour refléter le nouveau nom de la commande.
+
 4. **Lancer le Bot**
+    - Exécutez la commande suivante depuis la racine du répertoire :
     ```sh
     node index.js
     ```
@@ -157,26 +157,26 @@ WakeUp Bot è un bot Discord altamente configurabile progettato per ricordare ag
 - **channelToCheck** : ID del canale da monitorare per il comando.
 - **botToCheck** : ID del bot da monitorare (ad esempio, Disboard).
 - **roleToAlert** : ID del ruolo da avvisare.
-- **timeBeforeBump** : Intervallo di tempo prima di ricordare di bump.
+- **timeBeforeBump** : Intervallo di tempo prima di ricordare di bump (hh:mm:ss).
 - **command** : Comando da ricordare (ad esempio, `/bump`).
 - **checkUpdate** : Verificare gli aggiornamenti.
 
 ## Come Installare e Usare
+
 1. **Clona il Repository**
     ```sh
     git clone https://github.com/yourusername/WakeUp-Bot.git
     cd WakeUp-Bot
     ```
 
-2. **Installa le Dipendenze**
-    ```sh
-    npm install
-    ```
-
-3. **Configura il Bot**
+2. **Configura il Bot**
     - Modifica il file `config.json` con le tue impostazioni specifiche.
 
+3. **Aggiornare i file di lingua se il comando cambia**
+    - Se cambi il comando, assicurati di aggiornare il file di lingua corrispondente nella cartella `lang` per riflettere il nuovo nome del comando.
+
 4. **Avvia il Bot**
+    - Esegui il seguente comando dalla radice della directory:
     ```sh
     node index.js
     ```
